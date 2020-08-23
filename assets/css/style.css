@@ -1,0 +1,49 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #262626; }
+
+.wrap {
+  max-width: 20em;
+  margin: auto; }
+  .wrap .main .container {
+    text-align: center;
+    color: white; }
+    .wrap .main .container .header {
+      background-color: #d14070; }
+      .wrap .main .container .header .location {
+        background-color: #a52e56;
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1vw 7vw; }
+        .wrap .main .container .header .location i {
+          font-size: 1em;
+          color: white; }
+      .wrap .main .container .header .weather {
+        color: white;
+        padding: 3vw 0; }
+        .wrap .main .container .header .weather span {
+          font-size: 0.7em; }
+    .wrap .main .container .nav {
+      background-color: #181b28;
+      color: whitesmoke; }
+      .wrap .main .container .nav .tabs > div {
+        display: flex;
+        justify-content: space-around;
+        padding: 2vw 0;
+        border-bottom: #0f1323 0.1em solid; }
+        .wrap .main .container .nav .tabs > div span {
+          color: darkgray; }
+        .wrap .main .container .nav .tabs > div .left {
+          display: flex; }
+      .wrap .main .container .nav .tabs .current {
+        background-color: #424760; }
+
+/*# sourceMappingURL=style.css.map */
